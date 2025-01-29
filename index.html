@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        /* General Page Styles */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #ea668b, #240312); /* Gradient Background */
+            overflow: hidden;
+        }
+
+        /* Image Animation Styles */
+        img {
+            max-width: 100%; /* Makes the image fill the screen width */
+            height: auto;    /* Maintains aspect ratio */
+            animation: fadeInZoom 2s ease-in-out; /* Smooth fade-in and zoom animation */
+        }
+
+        /* Keyframes for Fade In + Zoom Effect */
+        @keyframes fadeInZoom {
+            0% {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Replace 'your-image.png' with your PNG file name -->
+    <img src="03092022_rorozoa_111.png" alt="Coming Soon">
+</body>
+</html>
