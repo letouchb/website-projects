@@ -15,16 +15,6 @@
             background-position: center;
             background-repeat: no-repeat;
         }
-</style>
-
-/* Make sure the image fits well on mobile */
-@media (max-width: 768px) {
-    img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
-}
 
         /* Image Animation Styles */
         img {
@@ -44,10 +34,19 @@
                 transform: scale(1);
             }
         }
+
+        /* Make sure the image fits well on mobile */
+        @media (max-width: 768px) {
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
     </style>
 </head>
 <body>
-    <!-- Replace '03092022_rorozoa_111.png' with your image file name -->
+    <!-- You can either use a background image for the body, or if you need to display an image separately, use the img tag below -->
     <img src="03092022_rorozoa_111.png" alt="Coming Soon">
 </body>
 </html>
